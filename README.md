@@ -18,3 +18,13 @@ The Pandas library is used to analyze the data. Functions and dictionaries are u
 Example after loading the csv and analyzing data, using `groupby`, `size()` and `sum()`, among other:
 
 ![alt text](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot_1.png "Exampel of output of analysis")
+
+#Sources
+The following sources have been used to solve the Bikeshare project:
+**Books:**
+1. Udacity course
+2. Data Science with Python, by J. VanderPlas, O'Reilly Media, 2017 (German version)
+
+**Websites:**
+1. Real Python Tutorial, https://realpython.com/
+2. Python documentation, https://www.python.org/doc/
