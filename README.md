@@ -19,7 +19,8 @@ Example after loading the csv and analyzing data, using `groupby`, `size()` and 
 
 ![alt text](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot_1.png "Exampel of output of analysis")
 
-#Sources
+*Sources*
+
 The following sources have been used to solve the Bikeshare project:
 **Books:**
 1. Udacity course
