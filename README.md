@@ -23,8 +23,6 @@ Example results after loading the csv and analyzing data, using `groupby()`, `si
 
 *Fig 2: Example of output of analysis*
 
-*Sources*
-
 The following sources have been used to solve the Bikeshare project:
 
 **Books:**
