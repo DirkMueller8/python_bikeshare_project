@@ -2,7 +2,7 @@
 **********************************************
 Software:		Python 3.8.3
 
-Version Number:	1.0
+Version:    	1.0
 
 Date: 			Oct 13, 2020
 
@@ -13,11 +13,15 @@ The objective of this software is to fulfill the requirements of project 2 of th
 
 The Pandas library is used to analyze the data. Functions and dictionaries are used widely, however, no classes.
 
-![alt text](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot.png "Excerpt of code showing the function to read and parse the data in csv format")
+![](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot.png)
 
-Example after loading the csv and analyzing data, using `groupby`, `size()` and `sum()`, among other:
+*Fig 1: Excerpt of code showing the function to read and parse the data in csv format*
 
-![alt text](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot_1.png "Exampel of output of analysis")
+Example results after loading the csv and analyzing data, using `groupby()`, `size()` and `sum()`, among other:
+
+![](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot_1.png)
+
+*Fig 2: Example of output of analysis*
 
 *Sources*
 
