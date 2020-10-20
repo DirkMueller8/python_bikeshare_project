@@ -26,6 +26,7 @@ Example results after loading the csv and analyzing data, using `groupby()`, `si
 *Sources*
 
 The following sources have been used to solve the Bikeshare project:
+
 **Books:**
 1. Udacity course
 2. Data Science with Python, by J. VanderPlas, O'Reilly Media, 2017 (German version)
