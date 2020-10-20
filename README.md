@@ -8,7 +8,7 @@ Date: 			Oct 13, 2020
 
 Author:			Dirk Mueller
 **********************************************
-The objective of this software is to fulfill the requirements of project 2 of the "Programming for Data Science with Python" NanoDegree. It analyzes bikeshare data from three cities: New York City, Washington and Chicago.
+The objective of this software is to fulfill the requirements of project 2 of the Udacity's "Programming for Data Science with Python" NanoDegree (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104). It analyzes bikeshare data from three cities: New York City, Washington and Chicago.
 (The original csv files contain 300.000 rows each, the test versions renamed to *_t.csv here just about a dozen rows.)
 
 The Pandas library is used to analyze the data. Functions and dictionaries are used widely, however, no classes.
