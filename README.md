@@ -1,13 +1,14 @@
 ## Analysis of bikeshare data from three US cities
 **********************************************
-Software:		Python 3.8.3
+Software:	&emsp;	Python 3.8.3
 
-Version:    	1.0
+Version:   &emsp; 	1.0
 
-Date: 			Oct 13, 2020
+Date: 	&emsp;		Oct 13, 2020
 
-Author:			Dirk Mueller
-**********************************************
+Author:	&emsp;		Dirk Mueller
+**********************************************  
+
 The objective of this software is to fulfill the requirements of project 2 of the Udacity's "Programming for Data Science with Python" NanoDegree (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104). It analyzes bikeshare data from three cities: New York City, Washington and Chicago.
 (The original csv files contain 300.000 rows each, the test versions renamed to *_t.csv here just about a dozen rows.)
 
