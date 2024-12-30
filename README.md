@@ -59,8 +59,6 @@ def load_data(city, month, day):
     return df
 ```
 
-![](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot.png)
-
 *Fig 1: Excerpt of code showing the function to read and parse the data in csv format*
 
 Example results after loading the csv and analyzing data, using `groupby()`, `size()` and `sum()`, among other:
