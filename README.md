@@ -14,6 +14,51 @@ The objective of this software is to fulfill the requirements of project 2 of th
 
 The Pandas library is used to analyze the data. Functions and dictionaries are used widely, however, no classes.
 
+```python
+def load_data(city, month, day):
+    """ Function to load the csv files and convert the Start Time and
+        End Time into datetime objects.
+        INPUT: city, month and weekday
+        OUTPUT: DataFrame with the converted time columns
+    """
+    if city == 'c':
+        file_to_open = CITY_DATA['chicago']
+    elif city == 'n':
+        file_to_open = CITY_DATA['new york city']
+    else:
+        file_to_open = CITY_DATA['washington']
+    df = pd.DataFrame()
+    print('File path and name:', file_to_open, '\n')
+    print('Data types for ', CITIES[city].title().upper(), ':')
+    if os.path.exists(file_to_open):
+        df = pd.read_csv(file_to_open)
+        # Conversion of date string to datetime object:
+        df['Start Time'] = pd.to_datetime(df['Start Time'])
+        df['End Time'] = pd.to_datetime(df['End Time'])
+        # Create new columns to for filtering the data set:
+        df['month'] = df['Start Time'].dt.month
+        df['day'] = df['Start Time'].dt.weekday
+        df['hour'] = df['Start Time'].dt.hour
+        # Reduce DataFrame to only include lines belonging to a given month:
+        if month != 'non':
+            df = df[df.month == M_DICT[month]]
+        # Reduce DataFrame to only include lines belonging to a given weekday:
+        if day != 'non':
+            df = df[df.day == D_DICT[day]]
+        if df.empty:
+            print("There is no data fulfilling the condition.")
+    else:
+        print('The file does not exist or could not be read!')
+    temp = 'Amount of missing values for each column: \n'
+    if city in ['c', 'n']:
+        print(df.iloc[:, 0:9].dtypes, '\n')
+        print(temp, df.iloc[:, 0:9].isnull().sum())
+    else:
+        print(df.iloc[:, 0:7].dtypes, '\n')
+        print(temp, df.iloc[:, 0:7].isnull().sum())
+    return df
+```
+
 ![](https://github.com/DirkMueller8/python_bikeshare_project/blob/master/snapshot.png)
 
 *Fig 1: Excerpt of code showing the function to read and parse the data in csv format*
